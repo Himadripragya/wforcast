@@ -7,14 +7,14 @@ const searchInput=document.getElementById("search-input");
 const searchButton=document.getElementById("search-button");
 
 searchButton.addEventListener('click', (e)=>
-{
+{{
 
 e.preventDefault();
 getWeather(searchInput.value);
 searchInput.value='';
 
 
-});
+}});
 
 
 
